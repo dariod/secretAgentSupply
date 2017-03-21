@@ -1,1 +1,167 @@
 /*This is the master style*/
+html {
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.header .contents {
+  width: 960px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.header .contents img {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.header .contents span {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.billboard {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.billboard .contents {
+  width: 960px;
+}
+
+.billboard .contents .ad {
+  width: 24rem;
+  margin-top: 9rem;
+  background: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.billboard .contents .ad p {
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.billboard .contents .ad h1 {
+  background: black;
+  font-size: 2rem;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.menu {
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+
+.menu .contents {
+  width: 960px;
+  display: flex;
+
+}
+
+.menu .contents nav {
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogue {
+  display: flex;
+  justify-content: center;
+}
+
+.catalogue .contents {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.catalogue .product {
+  border: 0.2rem solid black;
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalogue .product img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 9rem;
+  max-width: 100%;
+}
+
+.catalogue .product .caption {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: center;
+}
+
+.catalogue .product .caption span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-flex;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+.location .contents {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.location .contents .box {
+  width: 35%;
+}
+
+.location .contents .box .caption {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.location .contents .box p {
+  color: black;
+  margin-top: 0.4rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: black;
+  justify-content: center;
+}
+
+.footer .contents {
+  width: 960px;
+}
