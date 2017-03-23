@@ -196,3 +196,60 @@ html {
 
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .header .contents span {
+    display: none;
+  }
+
+  .header .contents {
+    width: auto;
+  }
+  .billboard {
+    height: 15rem;
+  }
+  .billboard .contents .ad {
+    margin-top: 10rem;
+  }
+
+  .billboard .contents .ad p {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 0.77rem;
+  }
+
+  .billboard .contents .ad h1 {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+  }
+
+  .catalogue .product.mini {
+    display: none;
+  }
+
+  .catalogue .contents {
+      width: 90%;
+  }
+
+  .catalogue .product {
+    width: 100%;
+  }
+
+  .location .contents {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .location .contents .box {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+}
